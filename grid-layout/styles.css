@@ -1,0 +1,29 @@
+main {
+    /* height: 100vh; */
+    display: grid;
+    height: 500px;
+    margin: auto;
+    font-family: sans-serif;
+    gap: 1rem;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(8, 1fr); */
+    /*minmax(tamaño minimo, tamaño maximo)*/
+    /*8 columnas con un patron dos (30px y minimo 10% y maximo 1fr)*/
+    /* grid-template-columns: repeat(4, 30px minmax(10%, 1fr)); */
+    /*8 columnas con un minimo marcado por el contenido y un maximo del 30%*/
+    /* grid-template-columns:  repeat(8, minmax(min-content, 30%)); */
+    /*8 columnas con un maximo y minimo marcado por su contenido*/
+    /* grid-template-columns: repeat(8, minmax(min-content, max-content)); */
+    /* grid-template-columns: repeat(3, minmax(min-content,1fr));  */
+    /* grid-template-columns: repeat(3,max-content); */
+    grid-auto-columns: max-content;
+    /* grid-auto-rows: 100px; */
+
+}
+
+main>div {
+    display: inline-block;
+  
+    
+    border: 1px solid gray;
+}

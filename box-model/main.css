@@ -1,0 +1,140 @@
+header {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+*:not(html, body, span) {
+    border: 1px solid black;
+}
+
+button {
+    margin: 5px;
+}
+
+/* div{
+    display: inline-block;
+    margin: auto;
+} */
+
+
+/*Modelo de Cajas*/
+/*
+    Margin
+    Border
+    Padding
+    Content
+*/
+
+.contenedor {
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+}
+
+.elemento {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* div:not(.contenido,){
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+} */
+
+span {}
+
+b {
+    position: relative;
+}
+
+.pesos {
+    position: relative;
+    font-size: 12px;
+}
+
+.centavos {
+    position: relative;
+    font-size: 12px;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+}
+
+.modal-header {
+    padding: 5px;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+body {
+    height: 4000px;
+}
+
+.arrow-up {
+    position: fixed;
+     bottom: 20px;
+    right: 20px; 
+    cursor: pointer;
+    transition: 4s ease;
+    /* animation: mymove 7s infinite; */
+}
+
+.arrow-up:hover {
+    background-color: rgb(163, 163, 5);
+    color: black;
+    transform: scale(2);
+}
+
+body:hover .arrow-up {
+    bottom: 100%;
+    right: 100%;
+}
+
+@keyframes mymove {
+    /* from {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    to {
+        bottom: 100%;
+        right: 100%;
+    } */
+
+    /* 0%{
+        bottom: 20px;
+        right: 20px; 
+    }
+    50%{
+        bottom: 90%;
+        right: 90%;
+    }
+    100%{
+        bottom: 20px;
+        right: 20px; 
+    } */
+}

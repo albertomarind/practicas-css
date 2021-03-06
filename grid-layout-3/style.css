@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    /* /* display: inline-grid; */
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    gap: 1rem;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}

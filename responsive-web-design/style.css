@@ -1,0 +1,22 @@
+p {
+    /* font-size: 2em; */
+    background-color: yellow;
+    margin: 0 auto;
+    width: 75%;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+button {
+    font-size: 2rem;
+    border: none;
+    border-radius: .25rem;
+    background-color: red;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    margin: 2rem;
+}
+
+span{
+    font-size: 2em;
+}

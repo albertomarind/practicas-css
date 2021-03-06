@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*SELECTORES DE ID*/
+#mi-h1 {
+    color: blue;
+}
+
+/*SELECTORES DE CLASE*/
+.mi-selector-de-clase {
+    color: yellow;
+}
+
+
+/*SELECTORES DE ETIQUETA*/
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+/* SELECTOR DE ATRIBUTO */
+a[target="_blank"] {
+    background-color: yellow;
+}
+
+a[href^="www"] {
+    background-color: red;
+}
+
+
+
+div>div,
+body>div,
+button[type="submit"] {
+    display: inline-block;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+section div {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+
+}
+
+/* body>h2[target] + #ancla[href*="google"].google.amazon.yahoo{
+    color: chartreuse;
+} */
+body>h1~#ancla[href*="google"].google.amazon.yahoo {
+    color: red;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: .125rem;
+    font-size: 12px;
+    transition: .4s ease;
+}
+
+sub{
+    transition: .4s ease;
+}
+
+/*Pseudo selectores*/
+.button + #mi-boton:hover,
+.botoncito:hover {
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+    padding: .3rem;
+}

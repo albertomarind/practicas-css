@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wrapper-body-section {
+    display: flex;
+    flex-grow: 1;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding:1rem;
+}
+
+main {
+    flex-grow: 8;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    background-color: brown;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: darkgreen;
+    padding:1rem;
+}

@@ -1,0 +1,138 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.parent {
+    border: 1px solid black;
+    display: flex;
+}
+
+.child {
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    height: 4000px;
+}
+
+.modal {
+    position: fixed;
+    background-color: black;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+
+.card {
+
+    width: 150px;
+    height: 300px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: .5s ease;
+    position: relative;
+
+}
+
+.wrapper-buy-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: .5s ease;
+    /* opacity: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .wrapper-buy-button {
+
+    background-color: lightgray;
+    /* opacity: 1; */
+}
+
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section>.card {
+    margin: .5rem;
+}
+
+
+.abuelo{
+    position: relative;
+    margin-left:200px;
+    width: 1000px;
+    height: 500px;
+}
+.padre{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5; 
+}
+.figura{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    transform: translate(-50%,200%) rotate(45deg);
+}

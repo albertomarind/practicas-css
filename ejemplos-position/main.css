@@ -1,0 +1,117 @@
+* {
+    /* border: 1px solid black; */
+}
+body{
+    margin:0;
+    margin-top: 20px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+     z-index: 1; 
+     width: 100%;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+}
+
+.card .card-header {
+    overflow: hidden;
+    height: 75px;
+    background-color: rgb(180, 152, 152);
+}
+
+.card .card-header .card-image {}
+
+.card .card-header .card-hot-sale {
+    display: inline-block;
+    text-align: center;
+    background-color: green;
+    color: wheat;
+    width: 100px;
+    transform: rotate(-45deg) translate(-30%, -57%);
+}
+
+.card .card-header .card-x-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    transform: translateX(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card .card-body {}
+
+.card .card-body .card-title {}
+
+.card .card-body .card-description {}
+
+.card .card-footer {}
+
+.card .card-footer .card-buy-button {}
+
+
+.soy-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.soy-absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+body {
+    height: 4000px;
+}
+
+.material {
+    display: inline-block;
+    position: relative;
+
+}
+
+.material .material-input {
+    padding-right: 17.5px;
+}
+
+.material:hover .material-button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-25%,-50%);
+    cursor: pointer;
+
+}
+
+.material .material-button-text{
+    transform: scale(0.5);
+}
+
+.material .material-button{
+    display: none;
+}
